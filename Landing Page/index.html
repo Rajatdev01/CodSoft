@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="menu">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#">Offer's</a>
+          <a href="#">Hotels</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="register">
+          <button class="but" role="button">Register</button>
+        </div>
+      </nav>
+      <section class="sec">
+        <h1>Dream Travel Agency</h1>
+        <br />
+        <a href="#">Book Trip</a>
+      </section>
+    </header>
+    <div id="about">
+      <div class="row">
+        <div class="column1">
+          <span>About</span>
+        </div>
+        <div class="column2">
+          <p>
+            Dream travel agency is a private retailer or public service that
+            provides travel and tourism-related services to the general public
+            on behalf of accommodation or travel suppliers to offer different
+            kinds of travelling packages for each destination.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="contact">
+        <div class="row">
+            <div class="col1">
+              <span>Contact</span>
+            </div>
+            <div class="col2">
+                <div class="con">
+                    <form action="/action_page.php">
+                      <label for="fname">Your Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  
+                      <label for="lname">Email</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your Email..">
+                  
+                      <label for="country">State</label>
+                      <select id="country" name="country">
+                        <option value="maha">Maharashtra</option>
+                        <option value="karnataka">Karnataka</option>
+                        <option value="himachal">Himachal Pradesh</option>
+                        <option value="telangana">Telangana</option>
+                      </select>
+                        <button class="butt" role="button">Submit</button>
+                    </form>
+                  </div>
+            </div>
+          </div>
+    </div>
+  </body>
+</html>
